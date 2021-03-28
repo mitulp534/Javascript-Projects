@@ -1,0 +1,25 @@
+.container-2{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto; /* it will keep everything in center that means 75% width will not shrink to the left or right side*/
+    text-align: center;
+}
+
+.flex-box-container-2{
+    display: flex;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img{
+    margin: 10px;
+    border: 1px solid green;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+}
+ 
+/*
+ <img src=C:\Users\mitul\Downloads\nyanpasu.gif>  
+ */ 
